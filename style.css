@@ -1,0 +1,24 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+/* Task One */
+section {
+    margin-top: 10px;
+}
+.task-one::before{
+    content: "Once upon a time...";
+    background-color: blue;
+}
+.task-one::after{
+    content: "... The end.";
+    background-color: blue;
+}
+/* Task Two */
+.task-two img{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+/* Task Three */
+.task-three{
+    transform: rotate(180deg);
+}
